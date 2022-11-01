@@ -1,0 +1,148 @@
+* {
+    box-sizing:border-box;
+    margin: 0 0;
+    /* border: 1px solid red; */
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    width:100%;
+    height:100px;
+}
+.razdelenie {
+    display:flex;
+    height:inherit;
+    width:1920px;
+    max-width:70%;
+    align-items:center;
+    justify-content:space-between;
+    margin:0 auto;
+}
+.b {
+    width:60px;
+    height:20px;
+    text-align:center;
+}
+.b a {
+    text-decoration:none;
+    color:black;
+}
+.b a:hover {
+    color:#616161;
+    font-weight:bold;
+}
+.left-bar {
+    display:flex;
+    justify-content:space-between;
+    width:400px;
+}
+.right-bar {
+    display:flex;
+    justify-content:space-between;
+    width:110px;
+}
+.button-search {
+    background-image:url(lib/search.png);
+    width:40px;
+    height:40px;
+    background-size:32px 32px;
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+}
+.button-account {
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfRvoKyPWxl-0EExOVhrqc56QcPcWK-Tloew&usqp=CAU);
+    width:40px;
+    height:40px;
+    background-size:32px 32px;
+    background-position-x: center;
+    background-repeat:no-repeat;
+    border-radius:20px;
+    background-color:#E4E6E7;
+}
+main {
+    max-width:1920px;
+    width:70%;
+    margin: 0px auto;
+}
+.box {
+    background-color:#c7d9e7;
+}
+.con {
+    /* width:1920px; */
+    margin:0px auto;
+    display:flex;
+    padding-top:100px;
+    max-width:1920px;
+}
+.photo-club {
+    width: 850px;
+    height: 600px;
+}
+.text {
+    margin: auto auto;
+    padding: 0px 8px;
+    width:500px;
+    min-width:500px;
+    background-color:#e1e8ee9a
+}
+.text h1 {
+    text-align:center;
+    margin-bottom:18px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top:100px;
+}
+article {
+    width:500px;
+    margin-top: 40px;
+}
+article h2 {
+    margin: 18px 10px;
+}
+.flex img {
+    width:350px;
+    height:450px;
+    margin: 125px 10Vh auto auto;
+}
+#second {
+    display:flex;
+    justify-content: space-between;
+    
+}
+.s1 {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:500px;
+    margin-top:40px;
+}
+.s2 {
+    
+}
+.s3 {
+    background:#adadad;
+    width:120px;
+    height:120px;
+    margin:20px;
+}
+footer {
+    height:150px;
+    background-color:#616161;
+    padding:40px 80px;
+    color:#ffffff;
+    margin-top: 100px;
+}
+footer a {
+    text-decoration:underline;
+    color:#ffffff;
+}
+footer a:hover {
+    color:aqua;
+}
+.test {
+    height:100px;
+}
